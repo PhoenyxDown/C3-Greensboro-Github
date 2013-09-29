@@ -1,0 +1,25 @@
+/*
+Theme Name: C3 Greensboro
+Theme URI: http://alinkonline.com
+Description: Floating content theme for C3 Greensboro
+Version: 1.0
+Author: Dustin Ginther
+Author URI: http://alinkonline.com
+Tags: repair. rebuild. revive. restore.
+*/
+
+@import "css/reset.css";
+@import "css/typography.css";
+@import "css/layout.css";
+@import "css/menu.css";
+
+/*PLUGIN OVERWRITES*/
+
+.rtw_meta {
+	font-size: 10px!important;
+	text-align: right;
+}
+
+.rtw_meta a {
+	font-size: 10px!important;
+}

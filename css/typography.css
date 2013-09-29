@@ -1,0 +1,405 @@
+/* TYPOGRAPHY */
+/* ----------------------------------------- */
+
+/* h1, h2, h3, h4, h5, h6 { font-weight:bold }  This helps to identify headings at the initial build stage, so I thought it'd be useful to have it */
+.alert { background:red; color:white } /* 'alert' has a basic style, since it's useful to have it standing out for testing purposes.
+
+*/
+
+/*COLORS
+Default: #477384 (Dark Teal)
+Connect: #02aad5 (Cyan, C3Ministries)
+Engage: #e42129 (Red, C3Volunteer)
+Contact: #373896 (Deep Purple, C3Services)
+*/
+
+blockquote {
+	margin: 20px 40px;
+	font-style: italic;
+}
+
+blockquote p {
+}
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#footercopyright p, #footercopyright a{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	margin-top: 4px;
+}
+
+#footercopyright a:hover {
+	text-decoration:underline;
+}
+
+#footercopyright p.credit {
+	float:right;
+	margin-top: -14px;
+}
+
+#footercopyright p.footerlinks {
+	float:left;
+	margin-top: -18px;
+	margin-left: 400px;
+}
+
+.footerlinks a {
+	margin-left:15px;
+}
+
+#footerwidgets p {
+	font-size: 14px;
+	color: white;
+	font-weight: 100;
+	letter-spacing: .02am;
+	line-height: 17px;
+}
+
+#footerwidgets h3{
+	font-size: 20px;
+	color: #848484;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+#footerwidgets a {
+	color: #848484;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#footer-column2 li{
+	line-height: 11px;
+	margin-bottom: 10px;
+}
+
+.recent_meta {
+	color: white;
+	font-size: 11px;
+}
+
+.rtw_main {
+ text-align: center!important;
+ padding-left: 20px;
+}
+
+#subpage .the_content p, #subpage .the_content li, #subpage .the_content table, #giving_form {
+	font-size: 14px;
+	line-height: 22px;
+	color: #565555;
+	margin-bottom: 20px;
+	text-shadow: -0 1px 0 #e7e7e7;
+}
+
+#subpage .related p{
+	margin-top: 30px;
+	font-size: 10px;
+}
+
+#subpage a {
+	color: #477384;
+	text-decoration: none;
+}
+
+#subpage .the_content li {
+	margin: -10px 50px 20px;
+	text-align: justify;
+}
+
+#subpage .the_content li:before {
+	content: '//';
+	list-style: outside;
+	font-weight: bold;
+	font-size: 16px;
+	position:absolute;
+	margin-left: -20px;
+}
+
+
+#subnav {
+	margin-top: 13px;
+}
+
+#subnav ul li a, #subnav p {
+	display:block;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 150px;
+	background-color: transparent;
+	padding: 7px 20px 7px 0;
+	text-align: right;
+	color: white;
+	font-size: 14px;
+}
+
+.slash, .slash1 {
+	color: #477384;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.time {
+	float:right;
+	margin-left: 11px;
+}
+
+.time2 {
+	float: right;
+	margin-left: 4px;
+}
+
+.slash1 {
+	color: #ccc
+}
+
+.prayer_type {
+	/*margin-left: 20px;*/
+	font-size: 11px;
+	float:right;
+	color:#ccc;
+}
+
+#subpage_sidebar h3 {
+	color: white;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 7px;
+	text-transform:uppercase;
+	font-size: 12px;
+}
+
+#subpage_center ul {
+	color: white;
+	font-size: 12px;
+}
+
+#subpage_sidebar li.current_page_item a:hover, 
+#subpage_sidebar li.current_page_item a, 
+#subpage_sidebar ul li a {
+  color: white !important;
+}
+
+.sidebar_readmore {
+	font-size: 10px;
+	text-align: right;
+}
+
+#subpage_center #searchform input {
+	height: 25px;
+}
+
+#subpage_center #searchform input#s {
+	width: 120px;
+	border: 0;
+}
+
+#subpage_center #searchform input#searchsubmit {
+	background-color: white;
+    border: 0 none;
+    color: #848484;
+	width: 27px;
+	margin-left: 3px;
+	margin-top:1px;
+	text-transform: uppercase;
+}
+
+.sidebar_article_title {
+	font-size: 14px;
+}
+
+/******TEMPLATE COLOR CHANGES*****/
+
+/*DEFAULT***/
+#subnav ul li a:hover, #subpage .the_content li:before {
+	color: #477384;
+}
+
+/*CONNECT***/
+
+#menu-connect li a:hover {
+	color: #02aad5!important;
+}
+
+#menu-connect li.current_page_item a{
+   background-color: #02aad5;
+}
+
+.page-template-TEMPLATE-connect-php #subpage a, .page-template-TEMPLATE-connect-php #subpage .the_content li:before {
+	color: #02aad5;
+}
+
+/*ENGAGE***/
+
+#menu-engage li a:hover {
+	color: #e42129!important;
+}
+
+#menu-engage li.current_page_item a{
+   background-color: #e42129;
+}
+
+.page-template-TEMPLATE-engage-php #subpage a, .page-template-TEMPLATE-engage-php #subpage .the_content li:before {
+	color: #e42129;
+}
+
+/*CONTACT***/
+
+#menu-contact li a:hover {
+	color: #373896!important;
+}
+
+#menu-contact li.current_page_item a{
+   background-color: #373896;
+}
+
+.page-template-TEMPLATE-contact-php #subpage a, .page-template-TEMPLATE-contact-php #subpage .the_content li:before {
+	color: #373896;
+}
+
+.page-template-TEMPLATE-contact-php #subpage_center2 a {
+	color: #848484;
+}
+
+/****Sermons***/
+
+.latest_sermon h2 {
+	font-size: 16px;
+	line-height: 22px;
+	color: #565555;
+	margin-bottom: 10px;
+	text-shadow: -0 1px 0 #e7e7e7;
+	text-transform: uppercase;
+}
+
+#subpage h2 {
+	font-size: 22px;
+	line-height: 22px;
+	color: #565555;
+	margin:20px 0 20px 0;
+	text-shadow: -0 1px 0 #e7e7e7;
+	text-transform: uppercase;
+}
+
+.latest_sermon h3 {
+	font-size: 22px;
+}
+
+.latest_content p{
+	font-size: 14px !important;
+	height: 57px;
+	overflow:hidden;
+}
+
+.latest_download_links {
+	font-size: 14px !important;
+}
+
+.sermon_date {
+	font-style: italic;
+}
+
+.sermon_media a{
+	font-size: 12px;
+	font-style: italic;
+	margin-bottom: 40px;
+}
+
+.latest_sermon h4 {
+	color: #565555;
+}
+
+h1.sermon_title {
+	font-size: 16px;
+	line-height: 22px;
+	color: #565555;
+	margin-bottom: 10px;
+	text-shadow: -0 1px 0 #e7e7e7;
+	text-transform: uppercase;
+}
+
+/****Giving*****/
+
+#giving_form, #giving_form p {
+	color: white!important;
+	text-shadow: none !important;
+}
+
+#giving_form h3 {
+	border-bottom: 1px solid #CCCCCC;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+#giving_form input{
+	padding: 5px;
+	border: 0;
+}
+
+#giving_form .spacer {
+	margin:20px 0 0;
+}
+
+#giving_form label {
+	line-height: 30px;
+}
+
+#giving_form #AMOUNT, #giving_form #DESCRIPTION {
+	height: 10px;
+	margin-left: 5px;
+	width: 129px;
+	
+}
+
+#giving_form #AMOUNT {
+	width: 55px;
+	margin-left:10px;
+}
+
+#giving_form .begin {
+	margin: 0 0 20px 0;
+	border: 0;
+	background: white;
+	height: 30px;
+	width: 55px;
+	cursor:pointer;
+	font-size: 12px;
+	color: #565555;
+	text-transform: uppercase;
+}
+
+#giving_form .privacy {
+	color: white; 
+	float: right; 
+	margin-top: 10px; 
+	text-decoration:underline;
+	font-size: 12px;
+}
+
+/***Blog****/
+
+.archive_meta {
+	color: #565555;
+	font-size: 12px;
+	float: right;
+	margin-top: 8px;
+}
+
+h1.archives_heading {
+	font-size: 24px;
+	color: #565555;
+	margin-bottom: 20px;
+}
+
+.addtoany_list a {
+	padding: 0 0 0 9px !important;
+}
+
+a.addtoany_share_save img {
+	margin-top: -3px;
+}
